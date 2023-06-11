@@ -11,6 +11,7 @@ import java.util.stream.IntStream;
 public class APi {
     @GetMapping("/hello")
     public Collection<String> sayHello() {
+        System.out.println("hiiii");
         return IntStream.range(0, 10)
                 .mapToObj(i -> "Hello number " + i)
                 .collect(Collectors.toList());
