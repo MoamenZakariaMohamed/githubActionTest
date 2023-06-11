@@ -20,6 +20,8 @@ public class SurveyApplication extends SpringBootServletInitializer {
     }
     public static void main(String[] args) {
         SpringApplication.run(SurveyApplication.class, args);
+        System.out.println("hiiii");
+
 
     }
 }
